@@ -7,8 +7,8 @@ terraform {
   }
 }
 environment {
-        AWS_ACCESS_KEY_ID = credentials('AKIAU6GDWU5PLYI7XUW3')        
-	AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID = "credentials('AKIAU6GDWU5PLYI7XUW3')"        
+	AWS_SECRET_ACCESS_KEY = "credentials('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')"
     }
 provider "aws" {
   region  = "ap-south-1"
