@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_instance" "app_server" {
   ami           = "ami-022ce6f32988af5fa"
-  instance_type = "t2.nano"
+  instance_type = "t2.micro"
 
   tags = {
     Name = "terraform_inst"
